@@ -1,5 +1,26 @@
-
 [server]
-headless = true
-enableCORS = false
-port = 8501
+enableStaticServing = true
+
+[[theme.fontFaces]]
+family="tuffy"
+url="app/static/Tuffy-Regular.ttf"
+style="normal"
+weight=400
+[[theme.fontFaces]]
+family="tuffy"
+url="app/static/Tuffy-Bold.ttf"
+style="normal"
+weight=700
+[[theme.fontFaces]]
+family="tuffy"
+url="app/static/Tuffy-Italic.ttf"
+style="italic"
+weight=400
+[[theme.fontFaces]]
+family="tuffy"
+url="app/static/Tuffy-BoldItalic.ttf"
+style="italic"
+weight=700
+
+[theme]
+font="tuffy"
