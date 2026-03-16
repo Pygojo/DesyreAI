@@ -3,7 +3,7 @@ import requests
 
 # 1. YOUR PERMANENT CLOUD LINK
 # We add /chat because that is the 'route' we created in Flask
-COLAB_URL = "https://jelsoft-housewares-dividend-helping.trycloudflare.com/chat"
+COLAB_URL = "https://undergraduate-mice-species-intention.trycloudflare.com/chat"
 
 st.set_page_config(page_title="Desyre Assistant", page_icon="🤖")
 
